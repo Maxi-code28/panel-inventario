@@ -1,0 +1,54 @@
+.inventory {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.inventory form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.inventory label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inventory input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.inventory button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inventory button:hover {
+  background-color: #45a049;
+}
+
+.inventory table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.inventory th, .inventory td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.inventory th {
+  background-color: #f4f4f4;
+}
